@@ -1,4 +1,4 @@
-import { Linkedin, Mail, MessageCircle, MapPin } from "lucide-react";
+import { LinkedinIcon as Linkedin, Mail, MessageCircle, MapPin } from "lucide-react";
 
 export function Footer() {
   return (

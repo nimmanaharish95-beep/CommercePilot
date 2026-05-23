@@ -7,7 +7,7 @@ export function Contact() {
   const [sent, setSent] = useState(false);
 
   return (
-    <section id="contact" className="py-28 relative">
+    <section id="contact" className="py-16 md:py-28 relative">
       <div
         className="absolute inset-0 pointer-events-none"
         style={{ background: "var(--gradient-hero)" }}

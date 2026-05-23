@@ -6,7 +6,7 @@ const platforms = ["Blinkit", "Zepto", "Instamart", "Amazon", "Flipkart", "Meta"
 export function Platforms() {
   const loop = [...platforms, ...platforms];
   return (
-    <section id="platforms" className="py-28">
+    <section id="platforms" className="py-16 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="Platform expertise"

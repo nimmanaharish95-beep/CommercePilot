@@ -4,7 +4,7 @@ import { SectionHeader } from "./Services";
 
 export function About() {
   return (
-    <section id="about" className="py-28">
+    <section id="about" className="py-16 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader eyebrow="About" title="Operators, not consultants" />
 

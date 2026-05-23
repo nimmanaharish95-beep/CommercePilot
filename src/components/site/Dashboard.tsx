@@ -15,7 +15,7 @@ const tiles = [
 
 export function Dashboard() {
   return (
-    <section className="py-28 relative">
+    <section className="py-16 md:py-28 relative">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="Analytics infrastructure"

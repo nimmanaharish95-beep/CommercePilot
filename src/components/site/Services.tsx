@@ -37,7 +37,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-28 relative">
+    <section id="services" className="py-16 md:py-28 relative">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="What we do"

@@ -20,7 +20,7 @@ const reasons = [
 
 export function WhyUs() {
   return (
-    <section className="py-28">
+    <section className="py-16 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader eyebrow="Why CommercePilot" title="Built for brands that want to win" />
 

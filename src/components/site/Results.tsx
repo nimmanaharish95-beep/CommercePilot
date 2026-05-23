@@ -13,7 +13,7 @@ const results = [
 
 export function Results() {
   return (
-    <section id="results" className="py-28 relative">
+    <section id="results" className="py-16 md:py-28 relative">
       <div className="mx-auto max-w-7xl px-6">
         <SectionHeader
           eyebrow="Real outcomes"

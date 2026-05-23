@@ -1,26 +1,55 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/site/Navbar";
+import { Hero } from "@/components/site/Hero";
+import { Brands } from "@/components/site/Brands";
+import { Services } from "@/components/site/Services";
+import { Results } from "@/components/site/Results";
+import { CaseStudies } from "@/components/site/CaseStudies";
+import { Platforms } from "@/components/site/Platforms";
+import { Dashboard } from "@/components/site/Dashboard";
+import { About } from "@/components/site/About";
+import { WhyUs } from "@/components/site/WhyUs";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "CommercePilot — Quick Commerce Growth Partner" },
+      {
+        name: "description",
+        content:
+          "CommercePilot helps D2C and FMCG brands scale across Blinkit, Zepto, Amazon and quick commerce with performance marketing, AI automation and analytics.",
+      },
+      { property: "og:title", content: "CommercePilot — Quick Commerce Growth Partner" },
+      {
+        property: "og:description",
+        content:
+          "Performance marketing, AI automation, and analytics for D2C and FMCG brands scaling across quick commerce and marketplaces.",
+      },
+      { property: "og:type", content: "website" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="relative overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <Brands />
+        <Services />
+        <Results />
+        <CaseStudies />
+        <Platforms />
+        <Dashboard />
+        <About />
+        <WhyUs />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }

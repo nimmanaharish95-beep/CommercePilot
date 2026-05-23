@@ -45,7 +45,7 @@ export function Services() {
           description="From quick commerce ads to AI-powered automation — one team to scale every revenue lever."
         />
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {services.map((s, i) => (
             <motion.div
               key={s.title}
@@ -89,10 +89,11 @@ export function SectionHeader({
 }) {
   return (
     <div className="text-center max-w-3xl mx-auto">
-      <span className="text-xs uppercase tracking-[0.3em] text-electric">{eyebrow}</span>
-      <h2 className="mt-3 text-4xl md:text-5xl font-bold">{title}</h2>
+      <span className="text-[10px] md:text-xs uppercase tracking-[0.25em] md:tracking-[0.3em] text-electric">{eyebrow}</span>
+      <h2 className="mt-3 text-3xl md:text-5xl font-bold leading-tight">{title}</h2>
       {description && (
-        <p className="mt-4 text-muted-foreground text-lg">{description}</p>
+        <p className="mt-3 md:mt-4 text-sm md:text-lg text-muted-foreground">{description}</p>
+
       )}
     </div>
   );

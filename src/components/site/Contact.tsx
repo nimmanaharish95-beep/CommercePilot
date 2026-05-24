@@ -32,19 +32,13 @@ export function Contact() {
         >
           <Field label="Name" name="name" placeholder="Your name" />
           <Field label="Brand Name" name="brand" placeholder="Brand / company" />
-          <Field
-            label="Monthly Revenue"
-            name="revenue"
-            placeholder="e.g. ₹50L / month"
-          />
+          <Field label="Monthly Revenue" name="revenue" placeholder="e.g. ₹50L / month" />
           <Field label="Phone Number" name="phone" type="tel" placeholder="+91 ..." />
           <div className="md:col-span-2">
             <Field label="Email" name="email" type="email" placeholder="you@brand.com" />
           </div>
           <div className="md:col-span-2 flex items-center justify-between gap-4 pt-2">
-            <p className="text-xs text-muted-foreground">
-              We respond to every enquiry personally.
-            </p>
+            <p className="text-xs text-muted-foreground">We respond to every enquiry personally.</p>
             <button
               type="submit"
               disabled={sent}

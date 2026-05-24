@@ -1,11 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  Zap,
-  Target,
-  Bot,
-  BarChart3,
-  Code2,
-} from "lucide-react";
+import { Zap, Target, Bot, BarChart3, Code2 } from "lucide-react";
 
 const services = [
   {
@@ -89,11 +83,12 @@ export function SectionHeader({
 }) {
   return (
     <div className="text-center max-w-3xl mx-auto">
-      <span className="text-[10px] md:text-xs uppercase tracking-[0.25em] md:tracking-[0.3em] text-electric">{eyebrow}</span>
+      <span className="text-[10px] md:text-xs uppercase tracking-[0.25em] md:tracking-[0.3em] text-electric">
+        {eyebrow}
+      </span>
       <h2 className="mt-3 text-3xl md:text-5xl font-bold leading-tight">{title}</h2>
       {description && (
         <p className="mt-3 md:mt-4 text-sm md:text-lg text-muted-foreground">{description}</p>
-
       )}
     </div>
   );

@@ -12,8 +12,8 @@ export function Footer() {
             CommercePilot
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-sm">
-            PERFORMANCE & GROWTH PARTNER — performance marketing, AI automation and analytics
-            for ambitious D2C and FMCG brands.
+            PERFORMANCE & GROWTH PARTNER — performance marketing, AI automation and analytics for
+            ambitious D2C and FMCG brands.
           </p>
           <div className="mt-5 flex items-center gap-2 text-sm text-muted-foreground">
             <MapPin className="h-4 w-4 text-electric" /> India

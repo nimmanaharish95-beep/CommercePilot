@@ -36,7 +36,10 @@ export function Navbar() {
             scrolled || open ? "glass shadow-[var(--shadow-elevated)]" : ""
           }`}
         >
-          <a href="#top" className="flex items-center gap-2 font-display font-bold text-sm md:text-lg">
+          <a
+            href="#top"
+            className="flex items-center gap-2 font-display font-bold text-sm md:text-lg"
+          >
             <span className="relative inline-flex h-6 w-6 md:h-7 md:w-7 items-center justify-center rounded-md md:rounded-lg bg-[var(--gradient-electric)] shadow-[var(--shadow-glow)]">
               <span className="absolute inset-0.5 rounded bg-background" />
               <span className="relative text-electric text-[10px] md:text-xs font-black">CP</span>

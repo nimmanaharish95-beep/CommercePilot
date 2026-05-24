@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  Store,
-  Database,
-  Bot,
-  Target,
-  Rocket,
-  Zap,
-} from "lucide-react";
+import { Store, Database, Bot, Target, Rocket, Zap } from "lucide-react";
 import { SectionHeader } from "./Services";
 
 const reasons = [

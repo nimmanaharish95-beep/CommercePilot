@@ -20,7 +20,7 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-2 rounded-full glass px-3 py-1 text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-widest text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-electric animate-pulse-glow" />
-            Quick Commerce Growth Partner
+            PERFORMANCE & GROWTH PARTNER
           </span>
 
           <h1 className="mt-5 md:mt-6 text-[2.2rem] leading-[1.1] sm:text-5xl md:text-6xl lg:text-7xl font-bold md:leading-[1.05]">

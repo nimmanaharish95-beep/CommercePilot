@@ -15,13 +15,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "CommercePilot — Quick Commerce Growth Partner" },
+      { title: "CommercePilot — PERFORMANCE & GROWTH PARTNER" },
       {
         name: "description",
         content:
           "CommercePilot helps D2C and FMCG brands scale across Blinkit, Zepto, Amazon and quick commerce with performance marketing, AI automation and analytics.",
       },
-      { property: "og:title", content: "CommercePilot — Quick Commerce Growth Partner" },
+      { property: "og:title", content: "CommercePilot — PERFORMANCE & GROWTH PARTNER" },
       {
         property: "og:description",
         content:

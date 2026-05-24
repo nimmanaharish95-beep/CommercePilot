@@ -18,8 +18,10 @@ export function About() {
           >
             <p className="text-lg leading-relaxed text-muted-foreground">
               Performance Marketing team with expertise in{" "}
-              <span className="text-foreground">Amazon Ads, Quick Commerce, Meta Ads, Google
-              Ads, SQL dashboards, BigQuery, automation, and web scraping.</span>{" "}
+              <span className="text-foreground">
+                Amazon Ads, Quick Commerce, Meta Ads, Google Ads, SQL dashboards, BigQuery,
+                automation, and web scraping.
+              </span>{" "}
               Experienced in scaling revenue, improving ROAS / TACoS, and managing large-scale
               marketplace campaigns.
             </p>
@@ -37,16 +39,18 @@ export function About() {
               <li className="flex gap-3">
                 <GraduationCap className="h-5 w-5 text-electric shrink-0 mt-0.5" />
                 <span>
-                  Includes members from <span className="text-foreground">IIT Roorkee</span>{" "}
-                  with engineering &amp; analytics backgrounds.
+                  Includes members from <span className="text-foreground">IIT Roorkee</span> with
+                  engineering &amp; analytics backgrounds.
                 </span>
               </li>
               <li className="flex gap-3">
                 <Sparkles className="h-5 w-5 text-electric shrink-0 mt-0.5" />
                 <span>
-                  Deep expertise in <span className="text-foreground">AI, automation, analytics
-                  and marketplace growth</span> — built by people who&apos;ve run the campaigns
-                  themselves.
+                  Deep expertise in{" "}
+                  <span className="text-foreground">
+                    AI, automation, analytics and marketplace growth
+                  </span>{" "}
+                  — built by people who&apos;ve run the campaigns themselves.
                 </span>
               </li>
             </ul>

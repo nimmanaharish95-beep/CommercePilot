@@ -29,10 +29,9 @@ export function Hero() {
           </h1>
 
           <p className="mt-4 md:mt-6 text-sm md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            We help D2C and FMCG brands grow through performance marketing, AI automation,
-            analytics dashboards, CRM systems, and marketplace scaling.
+            We help D2C and FMCG brands grow through performance marketing, AI automation, analytics
+            dashboards, CRM systems, and marketplace scaling.
           </p>
-
 
           <div className="mt-7 md:mt-9 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5 sm:gap-3">
             <a
@@ -59,7 +58,6 @@ export function Hero() {
           className="relative mt-12 md:mt-20 mx-auto max-w-5xl"
           style={{ perspective: 1200 }}
         >
-
           <div className="absolute -inset-8 bg-[var(--gradient-electric)] opacity-30 blur-3xl rounded-full" />
           <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-[var(--shadow-elevated)]">
             <img
